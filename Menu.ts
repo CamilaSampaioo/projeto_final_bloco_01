@@ -140,12 +140,18 @@ function keyPress(): void {
 }
 
 function sobre(): void {
-    console.log("\n*****************************************************");
-    console.log("Projeto Desenvolvido por:                              ");
-    console.log("Camila Sampaio - camila.sampaiodev@gmail.com           ");
-    console.log("www.linkedin.com/in/camilalsampaio                     ");
-    console.log("https://github.com/CamilaSampaioo                      ");
-    console.log("***************************************************** ");
+    console.log(Colors.fg.whitestrong);
+    console.log("╔═══════════════════════════════════════════════════════╗");
+    console.log("║                📌 INFORMAÇÕES DO PROJETO              ║");
+    console.log("╠═══════════════════════════════════════════════════════╣");
+    console.log("║                                                       ║");
+    console.log("║  👩‍💻 Desenvolvedora: Camila Sampaio                   ║");
+    console.log("║  📧 E-mail:         camila.sampaiodev@gmail.com       ║");
+    console.log("║  🔗 LinkedIn:       linkedin.com/in/camilalsampaio    ║");
+    console.log("║  🐙 GitHub:         github.com/CamilaSampaioo         ║");
+    console.log("║                                                       ║");
+    console.log("╚═══════════════════════════════════════════════════════╝");
+    console.log(Colors.reset);
 }
 
 function criarProdutosTeste(): void {
