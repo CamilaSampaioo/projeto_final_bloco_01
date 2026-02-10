@@ -4,7 +4,7 @@ export abstract class Produto {
      private _nome: string;
      private _preco: number;
      private _estoque: number;
-    tipo:any
+    tipo: any
 
 	constructor(id: number, nome: string, preco: number, estoque: number) {
 		this._id = id;
@@ -15,27 +15,26 @@ export abstract class Produto {
 	}
 
 
-   
 	public get id(): number {
 		return this._id;
 	}
 
-  
+
 	public get nome(): string {
 		return this._nome;
 	}
 
- 
+
 	public get preco(): number {
 		return this._preco;
 	}
 
- 
+
 	public get estoque(): number {
 		return this._estoque;
 	}
 
-  
+
 	public set id(value: number) {
 		this._id = value;
 	}
@@ -45,7 +44,6 @@ export abstract class Produto {
 		this._nome = value;
 	}
 
-
 	public set preco(value: number) {
 		this._preco = value;
 	}
@@ -54,6 +52,7 @@ export abstract class Produto {
 	public set estoque(value: number) {
 		this._estoque = value;
 	}
+
 
 	  public visualizar(): void {
         console.log("\n\n*****************************************************");

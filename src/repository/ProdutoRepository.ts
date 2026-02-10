@@ -1,13 +1,11 @@
 import { Produto } from "../model/Produto";
 
-export interface ProdutoRepository extends Produto{
+export interface ProdutoRepository{
 
+procurarPorId(id: number): void
+listarTodos(): void;
+cadastrar(produto: Produto): void;
+atualizar(produto: Produto): void;
+deletar(id: number): void;
 
-    // CRUD
-    pesquisarProdutoId(id: number): void;
-    pesquisarProdutoNome(nome: string): void;
-    listarProdutos(): void;
-    cadastrarProduto(produto: Produto): void;
-    atualizarProduto(id: number | string, produto: Produto): void;
-    deletarProduto(id: number): void;
 }
