@@ -145,7 +145,7 @@ function sobre(): void {
     console.log("║                📌 INFORMAÇÕES DO PROJETO              ║");
     console.log("╠═══════════════════════════════════════════════════════╣");
     console.log("║                                                       ║");
-    console.log("║  👩‍💻 Desenvolvedora: Camila Sampaio                   ║");
+    console.log("║  👩‍💻 Desenvolvedora: Camila Sampaio                    ║");
     console.log("║  📧 E-mail:         camila.sampaiodev@gmail.com       ║");
     console.log("║  🔗 LinkedIn:       linkedin.com/in/camilalsampaio    ║");
     console.log("║  🐙 GitHub:         github.com/CamilaSampaioo         ║");
