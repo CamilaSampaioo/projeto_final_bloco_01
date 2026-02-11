@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-18-green)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Terminal](https://img.shields.io/badge/interface-terminal-orange)
 
 ------------------------------------------------------------------------
@@ -116,6 +115,17 @@ Como parte do planejamento e orientação ao futuro deste projeto, as seguintes 
 -   **ts-node**
 -   **Colors** (para estilização do terminal)
 
+-----------------------------------------------------------------------
 
+"<img src=""https://github.com/CamilaSampaioo.png"" width=115><sub>Camila Sampaio</sub>"
+  
+
+Conecte-se comigo:
+
+📧  E-mail:    camila.sampaiodev@gmail.com
+
+🔗 LinkedIn:   www.linkedin.com/in/camilalsampaio
+
+🐙 GitHub:     https://github.com/CamilaSampaioo
 
 
