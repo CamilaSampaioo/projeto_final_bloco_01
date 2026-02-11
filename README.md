@@ -115,11 +115,8 @@ Como parte do planejamento e orientação ao futuro deste projeto, as seguintes 
 -   **ts-node**
 -   **Colors** (para estilização do terminal)
 
------------------------------------------------------------------------
-
-"<img src=""https://github.com/CamilaSampaioo.png"" width=115><sub>Camila Sampaio</sub>"
+----------------------------------------------------------------------
   
-
 Conecte-se comigo:
 
 📧  E-mail:    camila.sampaiodev@gmail.com
