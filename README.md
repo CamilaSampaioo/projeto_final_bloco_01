@@ -38,6 +38,8 @@ O sistema segue o padrão CRUD (Create, Read, Update, Delete):
 
 ## 📁 Estrutura do Projeto
 🌸 Generation de Parfum - Sistema de Gerenciamento de Estoque
+    
+    ```text
     │
     ├── src/
     │   ├── controller/
