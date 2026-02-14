@@ -58,7 +58,7 @@ O sistema segue o padrão CRUD (Create, Read, Update, Delete):
 ### 1. Clone o repositório:
 
 ``` bash
-git clone https://github.com/deboracamposs/Projeto-de-E-commerce---Generation-Brasil.git
+git clone https://github.com/CamilaSampaioo/projeto_final_bloco_01.git
 ```
 
 ### 2. Acesse o diretório:
