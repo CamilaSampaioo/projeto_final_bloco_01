@@ -11,7 +11,7 @@ export function main() {
     let opcao: number;
 
     while (true) {
-      console.log(Colors.bg.black, Colors.fg.yellow);
+        console.log(Colors.bg.black, Colors.fg.yellow);
         console.log("╔═══════════════════════════════════════════════════╗");
         console.log("║             ✨ GENERATION DE PARFUM ✨            ║");
         console.log("╠═══════════════════════════════════════════════════╣");
@@ -36,10 +36,10 @@ export function main() {
             process.exit(0);
         }
 
-switch (opcao) {
+        switch (opcao) {
             case 1:
                 console.log(Colors.fg.magenta, '\nCadastrar Novo Perfume \n', Colors.reset);
-                cadastrarPerfume(); 
+                cadastrarPerfume();
                 break;
 
             case 2:
@@ -73,7 +73,6 @@ switch (opcao) {
 
 // Case 1 : Cadastrar Novo Perfume 
 function cadastrarPerfume(): void {
-    console.log(Colors.fg.magenta, '\nCadastrar Novo Perfume \n', Colors.reset);
 
     let nome = Input.question("Digite o Nome do Perfume: ");
     let preco = Input.questionFloat("Digite o Preco: ");
@@ -89,14 +88,14 @@ function cadastrarPerfume(): void {
 
 // Case 2 : Listar Todos os Perfumes
 function listarPerfumes(): void {
-    console.log(Colors.fg.magenta, '\nListar Todos os Perfumes \n', Colors.reset);
+
     produtoController.listarTodos();
     keyPress();
 }
 
 // Case 3 : Buscar Perfume por ID
 function buscarPerfume(): void {
-    console.log(Colors.fg.magenta, '\nBuscar Perfume por ID \n', Colors.reset);
+
     let idBusca = Input.questionInt("Digite o ID do perfume: ");
     produtoController.procurarPorId(idBusca);
     keyPress();
@@ -104,7 +103,7 @@ function buscarPerfume(): void {
 
 // Case 4 : Atualizar Perfume
 function atualizarPerfume(): void {
-    console.log(Colors.fg.magenta, '\nAtualizar Perfume \n', Colors.reset);
+
     let idAtualizar = Input.questionInt("Digite o ID do perfume que deseja atualizar: ");
 
     let buscaProduto = produtoController.buscarNoArray(idAtualizar);
@@ -127,7 +126,7 @@ function atualizarPerfume(): void {
 
 // Case 5 : Deletar Perfume
 function deletarPerfume(): void {
-    console.log(Colors.fg.magenta, '\nDeletar Perfume \n', Colors.reset);
+
     let idDeletar = Input.questionInt("Digite o ID do perfume que deseja excluir: ");
     produtoController.deletar(idDeletar);
     keyPress();
@@ -145,7 +144,7 @@ function sobre(): void {
     console.log("║                📌 INFORMAÇÕES DO PROJETO              ║");
     console.log("╠═══════════════════════════════════════════════════════╣");
     console.log("║                                                       ║");
-    console.log("║  👩‍💻 Desenvolvedora: Camila Sampaio                    ║");
+    console.log("║  👩‍💻 Desenvolvedora: Camila Sampaio                  ║");
     console.log("║  📧 E-mail:         camila.sampaiodev@gmail.com       ║");
     console.log("║  🔗 LinkedIn:       linkedin.com/in/camilalsampaio    ║");
     console.log("║  🐙 GitHub:         github.com/CamilaSampaioo         ║");
@@ -163,7 +162,7 @@ function criarProdutosTeste(): void {
     // Cadastrando alguns Perfumes EDT (Tipo 2)
     produtoController.cadastrar(new Perfumes(produtoController.gerarId(), 'Ck One', 250.00, 20, 2));
     produtoController.cadastrar(new Perfumes(produtoController.gerarId(), 'Invictus', 450.00, 15, 2));
-    
+
     console.log(Colors.fg.green, "\nDados de teste carregados com sucesso!", Colors.reset);
 }
 
